@@ -368,3 +368,10 @@
 [2026-03-25T14:47:59.759Z] [INFO] IndexScanner: staleScan: 1.90ms
 [2026-03-25T14:47:59.760Z] [INFO] IndexScanner: staleScan: complete — 0 new, 0 stale, 0 deleted, 3 unchanged
 [2026-03-25T14:47:59.760Z] [INFO] extension: periodicScan: no changes
+[2026-03-25T14:51:08.546Z] [INFO] IndexService: indexFileContent: blog/introducing-as-notes.md → pageId=3
+[2026-03-25T14:51:08.550Z] [INFO] IndexService: saveToFile: wrote 77824 bytes
+[2026-03-25T14:51:08.550Z] [INFO] IndexService: saveToFile: 1.76ms
+[2026-03-25T14:51:08.552Z] [INFO] completion: cache rebuilt: 3 pages, 8 fwd refs, 0 aliases (11 total)
+[2026-03-25T14:51:08.553Z] [INFO] completion: rebuildCache: 1.74ms
+[2026-03-25T14:51:08.945Z] [INFO] IndexService: indexFileContent: blog/introducing-as-notes.md → pageId=3
+[2026-03-25T14:51:08.948Z] [INFO] debounce: indexFileContent + refresh: 9.00ms
