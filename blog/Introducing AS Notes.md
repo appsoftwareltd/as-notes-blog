@@ -1,6 +1,13 @@
-# AS Notes Blog
+---
+title: Introducing AS Notes
+description: AS Notes brings wikilink-style note-taking into VS Code. Capture ideas, link concepts, manage tasks, and now publish your notes as a static website.
+date: 2026-03-24
+order: 1
+---
 
-Write markdown in VS Code. Push to Git. Cloudflare Pages builds and deploys a static blog at [blog.asnotes.io](https://blog.asnotes.io).
+# Introducing AS Notes - VS Code Markdown Notes and Publishing
+
+**Write notes using markdown and wikilinks in VS Code, and publish your blog, docs and wiki from the same workspace**. Push to Git. Cloudflare Pages builds and deploys a static blog at [blog.asnotes.io](https://blog.asnotes.io) (that's this site!).
 
 This repository is a working example of [AS Notes](https://www.asnotes.io) as a publishing platform — a static site generator built into a VS Code extension. No framework, no build pipeline to maintain. Just a JSON config file and a folder of markdown. The same setup works with GitHub Pages, Netlify, Vercel, or any host that serves static files. This repo targets Cloudflare Pages.
 
@@ -10,7 +17,9 @@ This repository is a working example of [AS Notes](https://www.asnotes.io) as a 
 
 It also ships a built-in HTML converter. Point it at a folder in your AS Notes managed markdown and it produces clean, styled HTML with auto-resolved wikilinks, navigation, sitemaps, and RSS feeds.
 
-This repo uses that converter to publish a blog. Based on the Cloudflare pages link to the Github repository, every push to `main` triggers a Cloudflare Pages build that converts the markdown in `blog/` to static HTML and deploys it.
+This repo uses that converter to publish a blog. Based on the Cloudflare pages link to the Github repository, every push to `main` triggers a Cloudflare Pages build that converts the markdown in `blog/` to static HTML and deploys it. For full documentation on **AS Notes** static site publishing, see the [full docs](https://docs.asnotes.io/publishing-a-static-site.html).
+
+![AS Notes Editor Screenshot Meta](../assets/images/as-notes-editor-screenshot-meta.png)
 
 ## Publishing configuration and repository structure
 
