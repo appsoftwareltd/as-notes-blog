@@ -5,11 +5,15 @@ date: 2026-03-24
 order: 1
 ---
 
-# Introducing AS Notes - VS Code Markdown Notes and Publishing
+# AS Notes - A Static Site Generator in your Markdown Knowledgebase
 
-**Write notes using markdown and wikilinks in VS Code, and publish your blog, docs and wiki from the same workspace**. Push to Git. Cloudflare Pages builds and deploys a static blog at [blog.asnotes.io](https://blog.asnotes.io) (that's this site!).
+**Write notes using markdown and wikilinks in VS Code, and publish your blog, docs and wiki from the same workspace. Push to Git to deploy.**
 
-This repository is a working example of [AS Notes](https://www.asnotes.io) as a publishing platform — a static site generator built into a VS Code extension. No framework, no build pipeline to maintain. Just a JSON config file and a folder of markdown. The same setup works with GitHub Pages, Netlify, Vercel, or any host that serves static files. This repo targets Cloudflare Pages.
+This repository ([blog.asnotes.io](https://blog.asnotes.io)) is a working example of [AS Notes](https://www.asnotes.io) as a publishing platform — a static site generator built into a VS Code extension. No framework, no build pipeline to maintain. Just a JSON config file and a folder of markdown. The same setup works with GitHub Pages, Netlify, Vercel, or any host that serves static files. This repo targets Cloudflare Pages.
+
+**AS Notes** helps you to publish your notes to a static site in the same way that you might use **Jekyll**, **Hugo**, **Eleventy** or **Docusaurus**, but from your existing markdown notes knowledge base and from within VS Code.
+
+> Download from [AS Notes - VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=appsoftwareltd.as-notes)
 
 ## How it works
 

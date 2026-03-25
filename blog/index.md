@@ -1,6 +1,6 @@
 # Welcome to the AS Notes Blog
 
-This blog is published from a AS Notes VS Code workbook. You can read more about how this blog is managed in [[Introducing AS Notes]].
+This blog is published from a AS Notes VS Code workbook. You can read more about how this blog is managed in [[AS Notes - A Static Site Generator in your Markdown Knowledgebase]].
 
 ## Resources
 

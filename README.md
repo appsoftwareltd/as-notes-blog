@@ -1,8 +1,6 @@
 # AS Notes Blog
 
-Write markdown in VS Code. Push to Git. Cloudflare Pages builds and deploys a static blog at [blog.asnotes.io](https://blog.asnotes.io).
-
-This repository is a working example of [AS Notes](https://www.asnotes.io) as a publishing platform — a static site generator built into a VS Code extension. No framework, no build pipeline to maintain. Just a JSON config file and a folder of markdown. The same setup works with GitHub Pages, Netlify, Vercel, or any host that serves static files. This repo targets Cloudflare Pages.
+This repository is a working example of [AS Notes](https://www.asnotes.io) as a publishing platform — a static site generator built into a VS Code extension. No framework, no build pipeline to maintain. Just a JSON config file and a folder of markdown. The same setup works with GitHub Pages, Netlify, Vercel, or any host that serves static files. This repo targets Cloudflare Pages deploys a static blog at [blog.asnotes.io](https://blog.asnotes.io).
 
 ## How it works
 
