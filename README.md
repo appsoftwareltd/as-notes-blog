@@ -57,7 +57,7 @@ Blog posts are standard markdown files with YAML front matter:
 
 ```yaml
 ---
-title: Introducing AS Notes
+title: AS Notes - A Static Site Generator in your Markdown Knowledgebase.md
 description: AS Notes brings wikilink-style note-taking into VS Code.
 date: 2026-03-24
 order: 1
